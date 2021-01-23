@@ -2,13 +2,6 @@ const inquirer = require('inquirer')
 const { type } = require('os')
 const fs  = require('fs')
 inquirer.prompt([
- {
-    type:"list",
-    name: "anything",
-    message:'hello',
-    choices: ["hey",'yo',"sup"]
-
- },
 {
     type: 'input',
     name: 'ProjectName',
